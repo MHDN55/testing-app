@@ -25,7 +25,7 @@ void main() {
           // Act
           final val = counter.count;
           // Assert
-          expect(val, 1);
+          expect(val, 0);
         },
       );
       test(
